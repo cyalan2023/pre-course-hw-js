@@ -6,7 +6,7 @@ let passportMarried = {
         city: "Bobryisk"
     }
 };
-let clonePassportMarried = {...passportMarried,married: true, address: {...passportMarried.address} };
-clonePassportMarried.address = {...clonePassportMarried.address};
+let passportMarried2 = {...passportMarried,married: true, address: {...passportMarried.address} };
+passportMarried2.married = true;
 console.log(passportMarried);
-console.log(clonePassportMarried);
+console.log(passportMarried2);
