@@ -3,4 +3,6 @@ const numbers = [
     [11, 20, 33, 40, 55],
     [111, 200, 333, 400, 555],
 ];
-numbers.map(num => console.log(num.filter(n => n % 2 === 0)))
+let num1 = numbers.map((num) =>{
+  return num.filter(n => n % 2 === 0)})
+console.log(num1)
